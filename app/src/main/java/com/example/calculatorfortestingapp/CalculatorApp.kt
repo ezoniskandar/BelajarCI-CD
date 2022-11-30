@@ -21,6 +21,8 @@ fun CalculatorApp(
     var lengthInput by remember { mutableStateOf("") }
     var widthInput by remember { mutableStateOf("") }
     var result by remember { mutableStateOf("") }
+    var tesCICD by remember { mutableStateOf("") }
+
 
     val length = lengthInput.toDoubleOrNull() ?: 0.0
     val width = widthInput.toDoubleOrNull() ?: 0.0
